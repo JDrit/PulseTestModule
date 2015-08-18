@@ -4,8 +4,6 @@ package net.digitalbebop;
 option java_package = "net.digitalbebop";
 option java_outer_classname = "ClientRequests";
 
-syntax = "proto2";
-
 // Modules send this message to the server when they want to index a new
 // element. They are responsible for generating an unique ID `moduleId`
 // that will always represent the same data.
